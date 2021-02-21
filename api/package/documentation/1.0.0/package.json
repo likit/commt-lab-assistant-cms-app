@@ -526,6 +526,74 @@
           "name": {
             "type": "string"
           },
+          "tests": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "referenceValue": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "preparation": {
+                  "type": "string"
+                },
+                "fastingRequired": {
+                  "type": "boolean"
+                },
+                "specimen": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "anticoagulants": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "blood_tubes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "englishName": {
+                  "type": "string"
+                },
+                "code": {
+                  "type": "string"
+                },
+                "transportation": {
+                  "type": "string"
+                },
+                "published_at": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -538,6 +606,15 @@
         ],
         "properties": {
           "name": {
+            "type": "string"
+          },
+          "tests": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
             "type": "string"
           },
           "published_at": {

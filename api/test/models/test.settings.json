@@ -37,6 +37,15 @@
     },
     "blood_tubes": {
       "collection": "blood-tube"
+    },
+    "englishName": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "transportation": {
+      "type": "text"
     }
   }
 }

@@ -649,6 +649,15 @@
               }
             }
           },
+          "englishName": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "transportation": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -693,6 +702,15 @@
             "items": {
               "type": "string"
             }
+          },
+          "englishName": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "transportation": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

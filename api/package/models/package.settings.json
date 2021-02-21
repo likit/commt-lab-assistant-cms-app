@@ -15,6 +15,12 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "tests": {
+      "collection": "test"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
