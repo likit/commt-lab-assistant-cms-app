@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "name": "test",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "referenceValue": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "preparation": {
+      "type": "text"
+    },
+    "fastingRequired": {
+      "type": "boolean",
+      "default": false
+    },
+    "specimen": {
+      "collection": "specimens"
+    },
+    "anticoagulants": {
+      "collection": "anticoagulant"
+    },
+    "blood_tubes": {
+      "collection": "blood-tube"
+    }
+  }
+}

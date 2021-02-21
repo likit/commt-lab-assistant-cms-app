@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blood-tubes",
+      "handler": "blood-tube.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blood-tubes/count",
+      "handler": "blood-tube.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blood-tubes/:id",
+      "handler": "blood-tube.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blood-tubes",
+      "handler": "blood-tube.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blood-tubes/:id",
+      "handler": "blood-tube.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blood-tubes/:id",
+      "handler": "blood-tube.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

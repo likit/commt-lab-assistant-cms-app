@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anticoagulants",
+      "handler": "anticoagulant.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anticoagulants/count",
+      "handler": "anticoagulant.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anticoagulants/:id",
+      "handler": "anticoagulant.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anticoagulants",
+      "handler": "anticoagulant.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anticoagulants/:id",
+      "handler": "anticoagulant.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anticoagulants/:id",
+      "handler": "anticoagulant.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

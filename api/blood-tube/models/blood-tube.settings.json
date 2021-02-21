@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blood_tubes",
+  "info": {
+    "name": "bloodTube",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "capColor": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "grey",
+        "red",
+        "purple",
+        "green"
+      ],
+      "required": true
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "anticoagulant": {
+      "model": "anticoagulant"
+    },
+    "speciman": {
+      "model": "specimens"
+    }
+  }
+}

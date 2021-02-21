@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specimens",
+  "info": {
+    "name": "specimens",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "specimens": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
