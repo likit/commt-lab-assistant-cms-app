@@ -24,7 +24,7 @@
     "strapi-plugin-email": "3.5.0",
     "strapi-plugin-upload": "3.5.0",
     "strapi-plugin-users-permissions": "3.5.0",
-    "strapi-provider-upload-firebase": "0.0.4",
+    "strapi-provider-upload-to-firebase": "^1.0.1",
     "strapi-utils": "3.5.0"
   },
   "author": {

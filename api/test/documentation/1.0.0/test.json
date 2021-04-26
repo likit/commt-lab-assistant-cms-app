@@ -637,6 +637,12 @@
                 "speciman": {
                   "type": "string"
                 },
+                "invertNum": {
+                  "type": "integer"
+                },
+                "caution": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },

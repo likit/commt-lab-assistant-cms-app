@@ -46,6 +46,12 @@
     },
     "speciman": {
       "model": "specimens"
+    },
+    "invertNum": {
+      "type": "biginteger"
+    },
+    "caution": {
+      "type": "text"
     }
   }
 }

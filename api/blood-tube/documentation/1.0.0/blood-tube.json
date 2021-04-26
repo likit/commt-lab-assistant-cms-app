@@ -675,6 +675,12 @@
               }
             }
           },
+          "invertNum": {
+            "type": "integer"
+          },
+          "caution": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -707,6 +713,12 @@
             "type": "string"
           },
           "speciman": {
+            "type": "string"
+          },
+          "invertNum": {
+            "type": "integer"
+          },
+          "caution": {
             "type": "string"
           },
           "published_at": {
