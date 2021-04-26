@@ -11,9 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "<0.20.0",
+    "jquery": "1.9.1",
+    "knex": "^0.20.0",
+    "koa": "2.0.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
+    "popper.js": "^1.16.1",
     "sqlite3": "5.0.0",
     "strapi": "3.5.0",
     "strapi-admin": "3.5.0",
