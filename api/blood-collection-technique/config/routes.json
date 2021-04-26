@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blood-collection-technique",
+      "handler": "blood-collection-technique.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blood-collection-technique",
+      "handler": "blood-collection-technique.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blood-collection-technique",
+      "handler": "blood-collection-technique.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

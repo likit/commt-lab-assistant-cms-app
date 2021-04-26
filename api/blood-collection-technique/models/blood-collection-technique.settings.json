@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "blood_collection_techniques",
+  "info": {
+    "name": "blood-collection-technique"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
