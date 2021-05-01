@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "references",
+  "info": {
+    "name": "References"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "reference": {
+      "type": "richtext"
+    }
+  }
+}
